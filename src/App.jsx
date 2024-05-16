@@ -4,16 +4,16 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import TodoList from './components/TodoList';
 const initialTodos = [
-  { id: 1, text: 'Buy groceries', completed: false, createdDate: '2023-01-01T10:00:00Z' },
-  { id: 2, text: 'Walk the dog', completed: true, createdDate: '2023-01-02T11:00:00Z' },
-  { id: 3, text: 'Read a book', completed: false, createdDate: '2023-01-03T12:00:00Z' },
-  { id: 4, text: 'Write some code', completed: false, createdDate: '2023-01-04T13:00:00Z' },
-  { id: 5, text: 'Go to the gym', completed: true, createdDate: '2023-01-05T14:00:00Z' },
-  { id: 6, text: 'Call mom', completed: false, createdDate: '2023-01-06T15:00:00Z' },
-  { id: 7, text: 'Clean the house', completed: false, createdDate: '2023-01-07T16:00:00Z' },
-  { id: 8, text: 'Pay bills', completed: true, createdDate: '2023-01-08T17:00:00Z' },
-  { id: 9, text: 'Schedule dentist appointment', completed: false, createdDate: '2023-01-09T18:00:00Z' },
-  { id: 10, text: 'Plan vacation', completed: false, createdDate: '2023-01-10T19:00:00Z' },
+  { id: 1, text: 'Go Punjab Cash Carry', completed: false, createdDate: '2023-01-01T10:00:00Z' },
+  { id: 2, text: 'Find Crockery', completed: true, createdDate: '2023-01-02T11:00:00Z' },
+  { id: 3, text: 'Visit Abl', completed: false, createdDate: '2023-01-03T12:00:00Z' },
+  { id: 4, text: 'Buy Dumbels', completed: false, createdDate: '2023-01-04T13:00:00Z' },
+  { id: 5, text: 'Clean House', completed: true, createdDate: '2023-01-05T14:00:00Z' },
+  { id: 6, text: 'Call Mom', completed: false, createdDate: '2023-01-06T15:00:00Z' },
+  { id: 7, text: 'Scold Kids', completed: false, createdDate: '2023-01-07T16:00:00Z' },
+  { id: 8, text: 'Beat Best friend', completed: true, createdDate: '2023-01-08T17:00:00Z' },
+  { id: 9, text: 'Get a hair cut', completed: false, createdDate: '2023-01-09T18:00:00Z' },
+  { id: 10, text: 'Take Shower', completed: false, createdDate: '2023-01-10T19:00:00Z' },
 ];
 function App() {
   const [todos, setTodos] = useState(() => {

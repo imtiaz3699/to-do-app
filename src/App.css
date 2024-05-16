@@ -1,0 +1,40 @@
+
+.wrapper{
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;   
+    gap: 5px;
+}
+h1{
+  margin: 0px;
+}
+
+.input-w-btn{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.submit-btn{
+  padding: 3px 12px 3px 12px;
+  background-color: transparent;
+  outline: none;
+  border-radius: 4px;
+}
+
+.submit-btn:hover{
+  background-color: aqua;
+}
+.sorting-order{
+ margin-top: 10px; 
+}
+
+.wrapper-item{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
